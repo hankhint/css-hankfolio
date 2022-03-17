@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Hankfolio made with Materialize CSS</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+
+    <!-- Nav Bar-->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Hank (Featherston) Hint - Full Stack Web Developer</a>
+
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+                <!-- to do: make these links to modals-->
+                <li><a href="#footer">About Me</a></li>
+                <li><a href="badges.html">Contact</a></li>
+                <li><a href="collapsible.html">Portfolio</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- portfolio cards -->
+    <div class="row container">
+
+        <!--START ROW ONE-->
+        <!--START card one-->
+        <div class="col s12 m6 xl4">
+            <div class="card hoverable sticky-action">
+                <div class=" card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="assets/portfolio_cityweather.png">
+                </div>
+                <div class="card-content card-action">
+                    <span class="card-title activator grey-text text-darken-4">City Weather<i
+                            class="material-icons right">more_vert</i></span>
+                    <p><a href="https://github.com/hankhint/city-weather">See Repo</a><a href="https://hankhint.github.io/city-weather/">See deployed site</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">How was it made?<i
+                            class="material-icons right">close</i></span>
+                    <p>Uses JavaScript to make an API request, formats and displays weather data and saves the search in local storage. Styling with Materialize CSS.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--START card two-->
+        <div class="col s12 m6 xl4">
+            <div class="card hoverable sticky-action">
+                <div class=" card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="assets/portfolio_notetaker.png">
+                </div>
+                <div class="card-content card-action">
+                    <span class="card-title activator grey-text text-darken-4">Note Taker Express<i
+                            class="material-icons right">more_vert</i></span>
+                    <p><a href="https://github.com/hankhint/note-taker-express">See Repo</a><a href="https://fierce-sierra-45591.herokuapp.com/">See deployed site</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">How was it made?<i
+                            class="material-icons right">close</i></span>
+                    <p>Uses Node.js and Express.js to perform CRUD operations on a JSON database. Deployed to Heroku. UUID creates a unique ID for each note. Styled with Bootstrap. </p>
+                </div>
+            </div>
+        </div>
+
+        <!--START card three-->
+        <div class="col s12 m6 xl4">
+            <div class="card hoverable sticky-action">
+                <div class=" card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="assets/portfolio_teamprofilegenerator2.png">
+                </div>
+                <div class="card-content card-action">
+                    <span class="card-title activator grey-text text-darken-4">Team Portfolio<i
+                            class="material-icons right">more_vert</i></span>
+                    <p><a href="https://github.com/hankhint/team-profile-generator">See Repo</a><a href="https://drive.google.com/file/d/1Jt8fa-enq4jDYwPyfUL8CXUZfJH7hC_9/view?usp=sharing">Demo Video</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">How was it made?<i
+                            class="material-icons right">close</i></span>
+                    <p>Node.js command line application that uses Inquirer to collect user input, then populates an HTML template with the data to create a team portfolio. Jest for running tests. Styled with Materialize CSS.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- START ROW 2-->
+
+    <div class="row container">
+
+        <!--START card one-->
+        <div class="col s12 m6 xl4">
+            <div class="card hoverable sticky-action">
+                <div class=" card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="assets/portfolio_workday.png">
+                </div>
+                <div class="card-content card-action">
+                    <span class="card-title activator grey-text text-darken-4">Work Day Scheduler<i
+                            class="material-icons right">more_vert</i></span>
+                    <p><a href="https://github.com/hankhint/workday-scheduler">See Repo</a><a href="https://hankhint.github.io/workday-scheduler/">See deployed site</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">How was it made?<i
+                            class="material-icons right">close</i></span>
+                    <p>Uses JavaScript and jQuery to allow user input in a schedule and save the info to local storage.  Tasks change colors after their scheduled time has passed.  Scheduled tasks can be edited, added to, or deleted. Luxon is used to manage time conversion for updating the status of saved tasks.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--START card two-->
+        <div class="col s12 m6 xl4">
+            <div class="card hoverable sticky-action">
+                <div class=" card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="assets/readme_gen.png">
+                </div>
+                <div class="card-content card-action">
+                    <span class="card-title activator grey-text text-darken-4">ReadMe Maker<i
+                            class="material-icons right">more_vert</i></span>
+                    <p><a href="https://github.com/hankhint/readme-gen">See Repo</a><a href="https://drive.google.com/file/d/1x6LWvXhalPix3M2LGU4QfVWYRBE4z1rk/view?usp=sharing">Demo Video</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i
+                            class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--START card three-->
+        <div class="col s12 m6 xl4">
+            <div class="card hoverable sticky-action">
+                <div class=" card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="assets/portfolio_passwordgenerator.png">
+                </div>
+                <div class="card-content card-action">
+                    <span class="card-title activator grey-text text-darken-4">Password Generator<i
+                            class="material-icons right">more_vert</i></span>
+                    <p><a href="https://github.com/hankhint/password-generator">See Repo</a><a href="https://hankhint.github.io/password-generator/">See deployed site</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">How was it made?<i
+                            class="material-icons right">close</i></span>
+                    <p>Uses JavaScript to get parameters from user to create a random password. Custom styling</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer - ABOUT ME-->
+    <footer id="footer" class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Hank Hint - Full Stack Web Developer</h5>
+                    <p class="grey-text text-lighten-4">Hi, I'm Hank. I'm a full stack web developer that
+                        dabbles in
+                        UX
+                        design. Two names like a lunar and solar calendar. I'm interested in open source
+                        projects
+                        and shaking up the social compact. Solus
+                        Linux is
+                        my daily driver and I'm excited to get Linux on an M1 mac.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="https://github.com/hankhint/">GitHub</a></li>
+                        <li><a class="grey-text text-lighten-3"
+                                href="https://www.linkedin.com/in/hankhint/">LinkedIn</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://www.hankhint.com/">A domain I
+                                pay
+                                for</a>
+                        </li>
+                        <li><a class="grey-text text-lighten-3" href="https://www.twitter.com/hankhint/">I
+                                never
+                                tweet,
+                                too busy coding</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://www.italki.com/hihank" />Book
+                            me for
+                            an
+                            English Pronunciation class</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+
+            <div class="container">
+                © 2022 William (Hank) Featherston
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+</body>
+
+</html>
