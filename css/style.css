@@ -12,3 +12,9 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+/**adding padding for cards **/
+.card
+{
+    padding:10px 10px 10px 10px;
+}
