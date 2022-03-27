@@ -13,7 +13,7 @@ This is my portfolio site built with Materialize CSS
 * [Questions](#questions)
 
 ## Usage
-Use this site to see my projects that showcase my fullstack skills
+Use this fully responsive site to see my projects that showcase my skills: JavaScript ES6, Linux, HTML5, GitHub, SQL, NoSQL, MongoDB, MongoDB Atlas, Express.js, React, Node.js, jQuery, Responsive Design, Progessive Web Applications, Heroku, Materialize CSS, Flatpak, LINE Camera
 
 
 ## License
@@ -29,6 +29,8 @@ https://hankhint.github.io/css-hankfolio/
 
 ## Screenshot of Deployed Site
 ![screencapture-file-home-honk-Documents-bootcampFiles-projects-css-hankfolio-index-html-2022-03-27-12_11_51](https://user-images.githubusercontent.com/50533231/160292679-2149cc6a-0b68-4faa-ab1b-257debf89cf1.png)
+![image](https://user-images.githubusercontent.com/50533231/160292947-8ce6b6a1-5fa3-4a63-ab84-aa4cd2b5716d.png)
+
 
 ## Questions
 Send questions or comments to hankhint@gmail.com and find me on github https://github.com/hankhint
