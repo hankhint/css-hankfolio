@@ -4,6 +4,10 @@
 
 This is my portfolio site built with Materialize CSS
 
+## Deployed Site
+
+https://hankhint.github.io/css-hankfolio/
+
 # Table of Contents
 
 - [Usage](#usage)
@@ -29,10 +33,6 @@ The application uses the MIT license.
 - Accesibility Insights for Web
 - https://accessibilityinsights.io/docs/en/web/overview/
 - Web Content Accessibility Guidelines (WCAG) 2.1
-
-## Deployed Site
-
-https://hankhint.github.io/css-hankfolio/
 
 ## Accessibility Improvements
 
